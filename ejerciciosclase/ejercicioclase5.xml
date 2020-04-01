@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+<!ELEMENT note ((sms|email|mensajeria),to*,from,heading?,body)>
+<!ELEMENT sms EMPTY>
+<!ELEMENT email EMPTY>
+<!ELEMENT mensajeria EMPTY>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<note>
+  <email></email>
+  <to>Mercedes</to>
+  <to>PP</to>
+  <from>Jose</from>
+  <heading>Recordar</heading>
+  <body>No olvides el cumpleaños de Andrés!</body>
+</note>

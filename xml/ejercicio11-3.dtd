@@ -1,0 +1,6 @@
+<!ELEMENT partidos (partido*)>
+<!ELEMENT partido EMPTY>
+<!ATTLIST partido equipo_local NMTOKENS #REQUIRED>
+<!ATTLIST partido equipo_visitante NMTOKENS #REQUIRED>
+<!ATTLIST partido goles_local NMTOKENS #REQUIRED>
+<!ATTLIST partido goles_visitante NMTOKENS #REQUIRED>

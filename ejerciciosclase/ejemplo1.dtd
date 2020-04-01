@@ -1,0 +1,5 @@
+<!ELEMENT personas (persona*)>
+<!ELEMENT persona (nombre,mayoredad?,ciudad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayoredad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>

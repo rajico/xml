@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relacion SYSTEM "ejercicio9.dtd">
+<relacion>
+
+<persona>
+  <nombre></nombre>
+  <carnet></carnet>
+  <sexo></sexo>
+  <email></email>
+  <parentesco></parentesco>
+</persona>
+
+<persona>
+  <nombre></nombre>
+  <carnet></carnet>
+  <sexo></sexo>
+  <email></email>
+  <parentesco></parentesco>
+</persona>
+
+</relacion>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partidos SYSTEM "ejercicio11-2.dtd">
+<partidos>
+  <partido>
+    <equipo_local goles="0">
+      <nombre>Nottingham Presa</nombre>
+    </equipo_local>
+    <equipo_visitante goles="1">
+      <nombre>Inter de Mitente</nombre>
+    </equipo_visitante>
+  </partido>
+  <partido>
+    <equipo_local goles="3">
+      <nombre>Vodka Juniors</nombre>
+    </equipo_local>
+    <equipo_visitante goles="3">
+      <nombre>Sparta da Risa</nombre>
+    </equipo_visitante>
+  </partido>
+  <partido>
+    <equipo_local goles="4">
+      <nombre>Water de Munich</nombre>
+    </equipo_local>
+    <equipo_visitante goles="2">
+      <nombre>Esteaua es del grifo</nombre>
+    </equipo_visitante>
+  </partido>
+</partidos>

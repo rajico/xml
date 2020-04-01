@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores [
+<!ELEMENT errores (error+)>
+<!ELEMENT error (tipo,codigo,descripcion,localizacion?)>
+<!ATTLIST error id ID #REQUIRED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT localizacion (fichero+,fila?,columna?)>
+<!ELEMENT fichero (#PCDATA)>
+<!ELEMENT fila (#PCDATA)>
+<!ELEMENT columna (#PCDATA)>
+]>
+
+<errores>
+  <error id="id1">
+      <tipo>Aviso</tipo>
+      <codigo>000001</codigo>
+      <descripcion>Descripción del error</descripcion>
+      <localizacion>
+      <fichero>ejercicio1.xml</fichero>
+        <fila>3</fila>
+        <columna>5</columna>
+      </localizacion>   
+  </error>
+  
+    <error id="id2">
+      <tipo>Fatal</tipo>
+      <codigo>100001</codigo>
+      <descripcion>Descripción del error</descripcion>
+      <localizacion>
+      <fichero>ejercicio2.xml</fichero>
+        <fila>1</fila>
+        <columna>1</columna>
+      </localizacion>   
+  </error>
+  
+      <error id="id3">
+      <tipo>Mortal</tipo>
+      <codigo>101101</codigo>
+      <descripcion>Falta definir DOCTYPE.</descripcion>
+      <localizacion>
+      <fichero>ejercicioclase7.xml</fichero>
+        <fila>2</fila>
+        <columna>1</columna>
+      </localizacion>   
+  </error>
+  
+        <error id="id4">
+      <tipo>Fatal</tipo>
+      <codigo>101111</codigo>
+      <descripcion>Ciudad está definido en el DTD, pero no existe el elemento.</descripcion>
+      <localizacion>
+      <fichero>ejercicioclase7.xml</fichero>
+        <fila>6</fila>
+        <columna>1</columna>
+      </localizacion>   
+  </error>
+  
+          <error id="id5">
+      <tipo>Fatal</tipo>
+      <codigo>100101</codigo>
+      <descripcion>No está definido el elemento raíz.</descripcion>
+      <localizacion>
+      <fichero>ejercicioclase8.xml</fichero>
+        <fila>1</fila>
+        <columna>1</columna>
+      </localizacion>   
+  </error>
+</errores>

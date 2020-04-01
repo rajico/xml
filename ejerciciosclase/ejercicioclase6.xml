@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "ejemplo1.dtd">
+<personas>
+    <persona>
+    <nombre>Rafael</nombre>
+    <mayoredad/>
+    <ciudad>Córdoba</ciudad>    
+    </persona>
+    
+    <persona>
+    <nombre>Dora la Exploradora</nombre>
+    <ciudad>Medellin</ciudad>
+    </persona>
+</personas>
